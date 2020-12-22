@@ -1,7 +1,7 @@
-const daysE1 = document.getElementById("days");
-const hoursE1 = document.getElementById("hours");
-const minutesE1 = document.getElementById("minutes");
-const secondsE1 = document.getElementById("seconds");
+const daysE = document.getElementById("days");
+const hoursEl = document.getElementById("hours");
+const minutesEl = document.getElementById("minutes");
+const secondsEl = document.getElementById("seconds");
 
 const newYears = "1 Jan 2021";
 
@@ -16,10 +16,10 @@ function countdown() {
   const minutes = Math.floor(totalSeconds / 60) % 60;
   const seconds = Math.floor(totalSeconds) % 60;
 
-  daysE1.innerHTML = days;
-  hoursE1.innerHTML = hours;
-  minutesE1.innerHTML = minutes;
-  secondsE1.innerHTML = seconds;
+  daysEl.innerHTML = days;
+  hoursEl.innerHTML = hours;
+  minutesEl.innerHTML = minutes;
+  secondsEl.innerHTML = seconds;
 
   // console.log(days, hours, minutes, seconds); Note: Keep for reference later
 }
