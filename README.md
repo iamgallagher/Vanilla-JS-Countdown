@@ -1,4 +1,4 @@
-# countdown-timer
+# Vanilla JavaScript Countdown Timer
 
 This project is made  out of HTML, CSS & JAVASCRIPT. <br>
 The reason I made this project was just to practice JavaScript. <br>
